@@ -1,0 +1,1 @@
+console.log("Write log to console");
