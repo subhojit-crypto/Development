@@ -8,14 +8,16 @@
     <title>Head Lounge</title>
     <link rel="icon" type="image/jpg" href="travel.jpg"/>
     <!-- This is to add favcon(logo in title bar)-->
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
     <h1 id="top"> Welcome to New and Improved Head First Lounge</h1>
-    <img src="../hfhtmlcss/chapter2/lounge/drinks.gif" alt="Drinks Images">
+    <img class ="glass" src="../hfhtmlcss/chapter2/lounge/drinks.gif" alt="Drinks Images">
     <p>Join us any evening for refreshing elixirs.</p>
     <h2>Directions</h2>
-    <p>You will find the <a href="Directions.html" target="_blank"  title="Get directions"> directions</a> here</p>
+    <p>You will find the <a href="Directions.html"  title="Get directions" id ="direction"> directions</a> here</p>
     <!-- target specify where the link should open-->
     <q>To be or not to be</q>
     <!-- This is single inline quote-->
@@ -25,7 +27,7 @@
         members in the United States and close to 5 million globally.
     </blockquote>
     <!-- This is blockline quote <br> gives new line-->
-   <ol>
+   <ol class ="ordered" style="background:linear-gradient(to right,red,green); width: 25%;display: inline-block; float: right;">
     <li>Walla Walla, WA</li>
     <li>Magic City, ID</li>
     <li>Bountiful, UT</li>
@@ -33,7 +35,7 @@
     <li>Why, AZ</li>
     <li>Truth or Consequences, NM</li>
    </ol>
-   <ul>
+   <ul class ="unordered" style="background: linear-gradient(to left,red,blue);width: 25%;display: inline-block;">
     <li>Walla Walla, WA</li>
     <li>Magic City, ID</li>
     <li>Bountiful, UT</li>
@@ -69,6 +71,58 @@ system.</dd>
 
 <div dir="rtl"><a href="#top">Back to top</a></div>
 <!-- Attribut dir sets the direction of content-->
+
+<!--Caption Rows(Either heading or data)-->
+<table>
+    <caption>Data table</caption>
+    <thead>
+        <th>Head 1</th>
+        <th>Head 2</th>
+        <th>Head 3</th>
+    </thead>
+    <tr>
+        <td>
+            cell 1
+        </td>
+        <td>
+            cell 2
+        </td>
+        <td>
+            cell 3
+        </td>
+    </tr>
+    <tr>
+        <td>
+            cell 4
+        </td>
+        <td>
+            cell 5
+        </td>
+        <td>
+            cell 6
+        </td>
+    </tr>
+</table>
+<form action="#">
+    <label for="Text">Text</label>
+<input type="text" name="Text" id="">
+
+<input type="reset" value="Reset">
+<input type="button" value="Press this" onclick="">
+<label for="mail">Mail</label>
+<input type="email" name="mail" id="mail">
+<input type="password" name="hh" id="dw">
+<input type="submit" value="Submit">
+<input type="file" name="" id="">
+
+<input type="radio" name="group" value="1" id="">
+<label for="Text">male</label>
+<input type="radio" name="group" value="2" id="">
+<label for="Text">female</label>
+<input type="checkbox" name="hi"  id="">
+<input type="checkbox" name="rty" id="">
+</form>
+
 </body>
 
 </html>

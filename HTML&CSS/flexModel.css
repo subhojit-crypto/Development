@@ -1,0 +1,25 @@
+.flexHorizontal{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(11, 55, 55, .3);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1000px;
+    
+    
+}
+.flexVertical{
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+
+}
+#first{
+    order: 2;
+    align-self: flex-end!important;
+}

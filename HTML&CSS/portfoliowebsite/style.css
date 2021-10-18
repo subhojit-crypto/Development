@@ -1,0 +1,114 @@
+html,body{
+    height :100%;
+    width : 100%;
+    margin : 0px;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    background-color: #fbeec1;
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding:10px;
+    display : flex;
+    align-items: center;
+}
+.headerLogo{
+    flex:1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header div{
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.selected{
+    font-weight: bold;
+    border-bottom:5px solid black;
+}
+
+.main{
+    width:100%;
+    background-color: #fbeec1;
+    padding-top: 120px;
+    padding-left:80px;
+    padding-right:80px;
+    padding-bottom :40px;
+    font-family: 'Roboto', sans-serif;
+}
+.mainHeading{
+    font-size: 50px;
+    font-weight: 300;
+    color :rgb(41,41,41)
+}
+.hand{
+    display: inline-block;
+    animation: wiggle 0.45s infinite;
+}
+@keyframes wiggle{
+    0%{ transform:rotate(0deg);}
+    25%{ transform:rotate(7deg);}
+    50%{ transform:rotate(0deg);}
+    75%{ transform:rotate(-7deg);}
+   100%{ transform:rotate(0deg);}
+
+}
+.mainContent{
+    padding-top: 20px;
+    font-size: 19px;
+    max-width: 500px;
+    padding-bottom:22px;
+}
+
+button{
+    margin:5px;
+    height:48px;
+    width:150px;
+    padding:5px 5px;
+    font-weight:700;
+    font-size:15px;
+    color: #659080;
+    border: 2px solid #659080;
+    text-transform: uppercase;
+    outline: 0;
+    background: none;
+    cursor : pointer;
+    border-radius: 4px;;
+
+}
+.sqbtn{
+    width: 48px;
+    border-radius: 24px;
+}
+.skills{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.skillsContent{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.skillContainer{
+    display :flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 900px;
+}

@@ -1,0 +1,48 @@
+body{
+    background-image: url("Images/poly.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    /* filter: blur(8px); */
+    background-color: grey;
+    margin: 1%;
+    padding: 2%;
+}
+.glass{
+    border: 10px solid khaki;
+    margin: 20% 30% 10% 10%;
+    
+
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+h3:hover{
+    background-color: khaki;
+}
+li:first-child{
+    color: lawngreen;
+}
+#direction:link{
+    color : yellow;
+}
+#direction:visited{
+    color : pink;
+}
+
+
