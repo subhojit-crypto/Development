@@ -1,0 +1,54 @@
+.userDetails{
+    width: 60%;
+}
+
+.userDetails > div{
+    margin:10px;
+}
+
+.userDetails img{
+    margin:0 5px;
+}
+
+.red{
+    color: red;
+}
+
+#rank{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#userPersonalData{
+    font-size: 10px;
+    color:rgb(124, 120, 120);
+}
+
+#userName{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.userPhoto{
+    width: fit-content;
+}
+
+.search{
+    margin:30px;
+}
+
+.titlePhoto{
+    width: 330px;
+    padding: 20px;
+    border: 1px solid rgb(211, 199, 199);
+}
+
+.userData{
+    display: flex;
+    border: 1px solid rgb(211, 199, 199);
+    border-radius: 10px;
+    padding: 10px;
+    margin:30px;
+    max-width: 900px;
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+}
